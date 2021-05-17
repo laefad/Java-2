@@ -1,0 +1,49 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1'
+
+repositories {
+    mavenCentral()
+}
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class' : 'com.Main'
+        )
+    }
+}
+
+task copyJar(type: Copy) {
+    dependsOn 'jar'
+    from file("$buildDir/libs/9-1.jar")
+    into file("$rootDir/DockerDir/")
+}
+
+task removeJar(type: Delete) {
+    delete file("$rootDir/DockerDir/9-1.jar")
+}
+
+task buildDockerImage(type: Exec) {
+    dependsOn 'copyJar'
+    workingDir "$rootDir/DockerDir/"
+    commandLine "docker", "build", "-t", "myjava", "."
+    finalizedBy 'removeJar'
+}
+
+task removeDockerImage(type: Exec) {
+    commandLine 'docker', 'image', 'rm', 'myjava'
+}
+
+task runDockerContainer(type: Exec) {
+    dependsOn 'buildDockerImage'
+    commandLine "docker", "run", "--name", "myjava", "--rm", "myjava"
+    finalizedBy 'removeDockerImage'
+}
+
+test {
+    useJUnitPlatform()
+}

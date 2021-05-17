@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+<a href="/orders">Orders</a>
+<div>
+    <p>Sort items by</p>
+    <form method="get" action="/items/sortById">
+        <input type="hidden" name="orderId" readonly th:value="${orderId}" />
+        <button>Id</button>
+    </form>
+    <form method="get" action="/items/sortByName">
+        <input type="hidden" name="orderId" readonly th:value="${orderId}" />
+        <button>Name</button>
+    </form>
+    <form method="get" action="/items/sortByPrice">
+        <input type="hidden" name="orderId" readonly th:value="${orderId}" />
+        <button>Price</button>
+    </form>
+    <form method="get" action="/items/sortByDate">
+        <input type="hidden" name="orderId" readonly th:value="${orderId}" />
+        <button>Date</button>
+    </form>
+</div>
+
+<ul th:each="item : ${items}">
+    <li>
+        <span th:text="${item.getName()}"></span>
+        <span th:text="${item.getCreationDate()}"></span>
+        <span th:text="${item.getPrice()}"></span>
+        <form method="post" action="/items/remove">
+            <input type="hidden" name="itemId" readonly th:value="${item.getId()}" />
+            <input type="hidden" name="orderId" readonly th:value="${orderId}" />
+            <button type="submit">Remove item</button>
+        </form>
+    </li>
+</ul>
+
+<form method="post" action="/items/add">
+    <label>
+        <input type="text" name="creationDate"
+               placeholder="dd-MM-yyyy"/>
+    </label>
+    <br>
+    <label>
+        <input type="text" name="name"
+               placeholder="Vasiliy Pupkin"/>
+    </label>
+    <br>
+    <label>
+        <input type="number" name="price" step="any"
+               placeholder="10.11"/>
+    </label>
+    <br>
+    <input type="hidden" name="orderId" readonly th:value="${orderId}" />
+    <button type="submit">Add item</button>
+</form>
+
+</body>
+</html>

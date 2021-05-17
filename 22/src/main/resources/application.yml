@@ -1,0 +1,31 @@
+student :
+  name : Fedor
+  last_name : Daragan
+  group : IKBO10-19
+
+spring :
+  datasource :
+    url : jdbc:postgresql://localhost:7000/postgres
+    username : java
+    password : java
+    driver-class-name : org.postgresql.Driver
+
+  jpa :
+    database : postgresql
+    database-platform : org.hibernate.dialect.PostgreSQL10Dialect
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+          ssl:
+            trust: smtp.gmail.com
+    username: 123@gmail.com
+    password: 123
+
+destination: 123@gmail.com

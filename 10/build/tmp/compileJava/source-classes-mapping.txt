@@ -1,0 +1,14 @@
+com/company/pr10/implementations/Trump.java
+ com.company.pr10.implementations.Trump
+com/company/pr10/BeanConfig.java
+ com.company.pr10.BeanConfig
+com/company/pr10/implementations/Biden.java
+ com.company.pr10.implementations.Biden
+com/company/pr10/Politician.java
+ com.company.pr10.Politician
+com/company/pr10/Config.java
+ com.company.pr10.Config
+com/company/pr10/implementations/Merkel.java
+ com.company.pr10.implementations.Merkel
+com/company/pr10/Test.java
+ com.company.pr10.Test

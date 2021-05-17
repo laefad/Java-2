@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+    <form method="post" action="/orders/addOrder">
+        <label>
+            <input type="text" name="orderDate"
+                   placeholder="dd-MM-yyyy"/>
+        </label>
+        <br>
+        <button type="submit">Add order</button>
+    </form>
+
+    <div>
+        <p>Sort orders by</p>
+        <form method="get" action="/orders/sortByDate">
+            <input type="hidden" name="orderId" readonly th:value="${orderId}" />
+            <button>Date</button>
+        </form>
+        <form method="get" action="/orders/sortById">
+            <input type="hidden" name="orderId" readonly th:value="${orderId}" />
+            <button>Id</button>
+        </form>
+    </div>
+
+    <div th:each="order, state : ${orders}">
+        <h2>Order</h2>
+        <p>Date: <span th:text="${order.getOrderDate()}"></span></p>
+        <a th:href="${'/items?orderId=' + order.getId()}">Items</a>
+
+        <form method="post" action="/orders/removeOrder">
+            <input type="hidden" name="orderId" readonly th:value="${order.getId()}">
+            <button type="submit">Remove order</button>
+        </form>
+
+    </div>
+</body>
+</html>

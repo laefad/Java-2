@@ -1,0 +1,14 @@
+student :
+  name : Fedor
+  last_name : Daragan
+  group : IKBO10-19
+
+spring :
+  datasource :
+    url : jdbc:postgresql://localhost:7000/postgres
+    username : java
+    password : java
+    driver-class-name : org.postgresql.Driver
+  jpa :
+    database : postgresql
+    database-platform : org.hibernate.dialect.PostgreSQL10Dialect

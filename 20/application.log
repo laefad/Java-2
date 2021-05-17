@@ -1,0 +1,533 @@
+631  [main] INFO  c.c.J.JavaPracticeApplication Ц Starting JavaPracticeApplication using Java 13.0.2 on DESKTOP-B7VVFR0 with PID 1208 (C:\Users\is-in\Desktop\”чеба\ƒжава\19\build\classes\java\main started by is-in in C:\Users\is-in\Desktop\”чеба\ƒжава\19)
+635  [main] INFO  c.c.J.JavaPracticeApplication Ц No active profile set, falling back to default profiles: default
+1205 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1250 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Finished Spring Data repository scanning in 38 ms. Found 2 JPA repository interfaces.
+1848 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat initialized with port(s): 8080 (http)
+1856 [main] INFO  o.a.coyote.http11.Http11NioProtocol Ц Initializing ProtocolHandler ["http-nio-8080"]
+1857 [main] INFO  o.a.catalina.core.StandardService Ц Starting service [Tomcat]
+1857 [main] INFO  o.a.catalina.core.StandardEngine Ц Starting Servlet engine: [Apache Tomcat/9.0.44]
+1930 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring embedded WebApplicationContext
+1931 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Ц Root WebApplicationContext: initialization completed in 1247 ms
+2098 [main] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Starting...
+2185 [main] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Start completed.
+2226 [main] INFO  o.h.jpa.internal.util.LogHelper Ц HHH000204: Processing PersistenceUnitInfo [name: default]
+2276 [main] INFO  org.hibernate.Version Ц HHH000412: Hibernate ORM core version 5.4.29.Final
+2414 [main] INFO  o.h.annotations.common.Version Ц HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2536 [main] INFO  org.hibernate.dialect.Dialect Ц HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+3099 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator Ц HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3110 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Ц Initialized JPA EntityManagerFactory for persistence unit 'default'
+3376 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration Ц spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+3471 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor Ц Initializing ExecutorService 'applicationTaskExecutor'
+3657 [main] INFO  o.a.coyote.http11.Http11NioProtocol Ц Starting ProtocolHandler ["http-nio-8080"]
+3785 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat started on port(s): 8080 (http) with context path ''
+3792 [main] INFO  c.c.J.JavaPracticeApplication Ц Started JavaPracticeApplication in 3.529 seconds (JVM running for 3.993)
+8761 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring DispatcherServlet 'dispatcherServlet'
+8761 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Ц Initializing Servlet 'dispatcherServlet'
+8762 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Ц Completed initialization in 1 ms
+8787 [http-nio-8080-exec-1] INFO  c.c.J.service.OrderService Ц get sorted by date
+9159 [http-nio-8080-exec-2] INFO  c.c.J.service.OrderService Ц get sorted by id
+592  [main] INFO  c.c.J.JavaPracticeApplication Ц Starting JavaPracticeApplication using Java 13.0.2 on DESKTOP-B7VVFR0 with PID 14712 (C:\Users\is-in\Desktop\”чеба\ƒжава\19\build\classes\java\main started by is-in in C:\Users\is-in\Desktop\”чеба\ƒжава\19)
+615  [main] INFO  c.c.J.JavaPracticeApplication Ц No active profile set, falling back to default profiles: default
+1186 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1233 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Finished Spring Data repository scanning in 39 ms. Found 2 JPA repository interfaces.
+1818 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat initialized with port(s): 8080 (http)
+1826 [main] INFO  o.a.coyote.http11.Http11NioProtocol Ц Initializing ProtocolHandler ["http-nio-8080"]
+1826 [main] INFO  o.a.catalina.core.StandardService Ц Starting service [Tomcat]
+1827 [main] INFO  o.a.catalina.core.StandardEngine Ц Starting Servlet engine: [Apache Tomcat/9.0.44]
+1919 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring embedded WebApplicationContext
+1919 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Ц Root WebApplicationContext: initialization completed in 1253 ms
+2085 [main] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Starting...
+2165 [main] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Start completed.
+2206 [main] INFO  o.h.jpa.internal.util.LogHelper Ц HHH000204: Processing PersistenceUnitInfo [name: default]
+2256 [main] INFO  org.hibernate.Version Ц HHH000412: Hibernate ORM core version 5.4.29.Final
+2386 [main] INFO  o.h.annotations.common.Version Ц HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2495 [main] INFO  org.hibernate.dialect.Dialect Ц HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+3053 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator Ц HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3063 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Ц Initialized JPA EntityManagerFactory for persistence unit 'default'
+3324 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration Ц spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+3415 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor Ц Initializing ExecutorService 'applicationTaskExecutor'
+3600 [main] INFO  o.a.coyote.http11.Http11NioProtocol Ц Starting ProtocolHandler ["http-nio-8080"]
+3727 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat started on port(s): 8080 (http) with context path ''
+3736 [main] INFO  c.c.J.JavaPracticeApplication Ц Started JavaPracticeApplication in 3.506 seconds (JVM running for 3.947)
+22446 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring DispatcherServlet 'dispatcherServlet'
+22447 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Ц Initializing Servlet 'dispatcherServlet'
+22448 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Ц Completed initialization in 1 ms
+22485 [http-nio-8080-exec-1] INFO  c.c.J.service.ItemService Ц get items by order id = 3
+28812 [http-nio-8080-exec-2] INFO  c.c.J.service.ItemService Ц get sorted by date
+32436 [http-nio-8080-exec-3] INFO  c.c.J.service.ItemService Ц get sorted by id
+41987 [http-nio-8080-exec-4] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] Ц Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.util.IllegalFormatConversionException: d != java.lang.Double] with root cause
+java.util.IllegalFormatConversionException: d != java.lang.Double
+	at java.base/java.util.Formatter$FormatSpecifier.failConversion(Formatter.java:4426)
+	at java.base/java.util.Formatter$FormatSpecifier.printInteger(Formatter.java:2938)
+	at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:2892)
+	at java.base/java.util.Formatter.format(Formatter.java:2673)
+	at java.base/java.util.Formatter.format(Formatter.java:2609)
+	at java.base/java.lang.String.format(String.java:3662)
+	at com.company.JavaPractice.service.ItemService.addItem(ItemService.java:51)
+	at com.company.JavaPractice.controller.ItemController.addItem(ItemController.java:90)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:847)
+638  [main] INFO  c.c.J.JavaPracticeApplication Ц Starting JavaPracticeApplication using Java 13.0.2 on DESKTOP-B7VVFR0 with PID 6696 (C:\Users\is-in\Desktop\”чеба\ƒжава\19\build\classes\java\main started by is-in in C:\Users\is-in\Desktop\”чеба\ƒжава\19)
+642  [main] INFO  c.c.J.JavaPracticeApplication Ц No active profile set, falling back to default profiles: default
+1203 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1251 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Finished Spring Data repository scanning in 40 ms. Found 2 JPA repository interfaces.
+1825 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat initialized with port(s): 8080 (http)
+1832 [main] INFO  o.a.coyote.http11.Http11NioProtocol Ц Initializing ProtocolHandler ["http-nio-8080"]
+1833 [main] INFO  o.a.catalina.core.StandardService Ц Starting service [Tomcat]
+1833 [main] INFO  o.a.catalina.core.StandardEngine Ц Starting Servlet engine: [Apache Tomcat/9.0.44]
+1912 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring embedded WebApplicationContext
+1912 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Ц Root WebApplicationContext: initialization completed in 1221 ms
+2087 [main] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Starting...
+2170 [main] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Start completed.
+2210 [main] INFO  o.h.jpa.internal.util.LogHelper Ц HHH000204: Processing PersistenceUnitInfo [name: default]
+2261 [main] INFO  org.hibernate.Version Ц HHH000412: Hibernate ORM core version 5.4.29.Final
+2395 [main] INFO  o.h.annotations.common.Version Ц HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2512 [main] INFO  org.hibernate.dialect.Dialect Ц HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+3085 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator Ц HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3094 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Ц Initialized JPA EntityManagerFactory for persistence unit 'default'
+3369 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration Ц spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+3462 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor Ц Initializing ExecutorService 'applicationTaskExecutor'
+3650 [main] INFO  o.a.coyote.http11.Http11NioProtocol Ц Starting ProtocolHandler ["http-nio-8080"]
+3777 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat started on port(s): 8080 (http) with context path ''
+3784 [main] INFO  c.c.J.JavaPracticeApplication Ц Started JavaPracticeApplication in 3.514 seconds (JVM running for 3.992)
+9538 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring DispatcherServlet 'dispatcherServlet'
+9538 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Ц Initializing Servlet 'dispatcherServlet'
+9541 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Ц Completed initialization in 2 ms
+9579 [http-nio-8080-exec-1] INFO  c.c.J.service.ItemService Ц add item with {
+	orderId: 3,
+creationDate: 2010-11-10,
+	name: Dark
+	price: 11,000000
+}
+9654 [http-nio-8080-exec-2] INFO  c.c.J.service.ItemService Ц get items by order id = 3
+582  [main] INFO  c.c.J.JavaPracticeApplication Ц Starting JavaPracticeApplication using Java 13.0.2 on DESKTOP-B7VVFR0 with PID 17392 (C:\Users\is-in\Desktop\”чеба\ƒжава\19\build\classes\java\main started by is-in in C:\Users\is-in\Desktop\”чеба\ƒжава\19)
+588  [main] INFO  c.c.J.JavaPracticeApplication Ц No active profile set, falling back to default profiles: default
+1129 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1175 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Finished Spring Data repository scanning in 39 ms. Found 2 JPA repository interfaces.
+1743 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat initialized with port(s): 8080 (http)
+1751 [main] INFO  o.a.coyote.http11.Http11NioProtocol Ц Initializing ProtocolHandler ["http-nio-8080"]
+1751 [main] INFO  o.a.catalina.core.StandardService Ц Starting service [Tomcat]
+1752 [main] INFO  o.a.catalina.core.StandardEngine Ц Starting Servlet engine: [Apache Tomcat/9.0.44]
+1825 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring embedded WebApplicationContext
+1825 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Ц Root WebApplicationContext: initialization completed in 1193 ms
+1979 [main] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Starting...
+2063 [main] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Start completed.
+2102 [main] INFO  o.h.jpa.internal.util.LogHelper Ц HHH000204: Processing PersistenceUnitInfo [name: default]
+2151 [main] INFO  org.hibernate.Version Ц HHH000412: Hibernate ORM core version 5.4.29.Final
+2295 [main] INFO  o.h.annotations.common.Version Ц HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2403 [main] INFO  org.hibernate.dialect.Dialect Ц HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2956 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator Ц HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2964 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Ц Initialized JPA EntityManagerFactory for persistence unit 'default'
+3221 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration Ц spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+3312 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor Ц Initializing ExecutorService 'applicationTaskExecutor'
+3511 [main] INFO  o.a.coyote.http11.Http11NioProtocol Ц Starting ProtocolHandler ["http-nio-8080"]
+3630 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat started on port(s): 8080 (http) with context path ''
+3637 [main] INFO  c.c.J.JavaPracticeApplication Ц Started JavaPracticeApplication in 3.408 seconds (JVM running for 3.845)
+12942 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring DispatcherServlet 'dispatcherServlet'
+12943 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Ц Initializing Servlet 'dispatcherServlet'
+12945 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Ц Completed initialization in 2 ms
+12984 [http-nio-8080-exec-1] INFO  c.c.J.service.ItemService Ц add item with {
+	orderId: 3,
+	creationDate: 2020-10-10,
+	name: Fer
+	price: 112,000000
+}
+13060 [http-nio-8080-exec-2] INFO  c.c.J.service.ItemService Ц get items by order id = 3
+34720 [http-nio-8080-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver Ц Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required Date parameter 'orderDate' is not present]
+37966 [http-nio-8080-exec-5] INFO  c.c.J.service.OrderService Ц Add order, orderDate = 1981-11-10
+131234 [http-nio-8080-exec-9] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver Ц Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required Date parameter 'orderDate' is not present]
+596  [main] INFO  c.c.J.JavaPracticeApplication Ц Starting JavaPracticeApplication using Java 13.0.2 on DESKTOP-B7VVFR0 with PID 7596 (C:\Users\is-in\Desktop\”чеба\ƒжава\20\build\classes\java\main started by is-in in C:\Users\is-in\Desktop\”чеба\ƒжава\20)
+599  [main] INFO  c.c.J.JavaPracticeApplication Ц No active profile set, falling back to default profiles: default
+1163 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1213 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Finished Spring Data repository scanning in 40 ms. Found 2 JPA repository interfaces.
+1890 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat initialized with port(s): 8080 (http)
+1898 [main] INFO  o.a.coyote.http11.Http11NioProtocol Ц Initializing ProtocolHandler ["http-nio-8080"]
+1899 [main] INFO  o.a.catalina.core.StandardService Ц Starting service [Tomcat]
+1899 [main] INFO  o.a.catalina.core.StandardEngine Ц Starting Servlet engine: [Apache Tomcat/9.0.44]
+1972 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring embedded WebApplicationContext
+1973 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Ц Root WebApplicationContext: initialization completed in 1323 ms
+2133 [main] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Starting...
+2218 [main] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Start completed.
+2260 [main] INFO  o.h.jpa.internal.util.LogHelper Ц HHH000204: Processing PersistenceUnitInfo [name: default]
+2313 [main] INFO  org.hibernate.Version Ц HHH000412: Hibernate ORM core version 5.4.29.Final
+2469 [main] INFO  o.h.annotations.common.Version Ц HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2577 [main] INFO  org.hibernate.dialect.Dialect Ц HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+3165 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator Ц HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3176 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Ц Initialized JPA EntityManagerFactory for persistence unit 'default'
+3477 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration Ц spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+3575 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor Ц Initializing ExecutorService 'applicationTaskExecutor'
+3797 [main] INFO  o.a.coyote.http11.Http11NioProtocol Ц Starting ProtocolHandler ["http-nio-8080"]
+3923 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat started on port(s): 8080 (http) with context path ''
+3932 [main] INFO  c.c.J.JavaPracticeApplication Ц Started JavaPracticeApplication in 3.696 seconds (JVM running for 4.153)
+9757 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring DispatcherServlet 'dispatcherServlet'
+9758 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Ц Initializing Servlet 'dispatcherServlet'
+9759 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Ц Completed initialization in 1 ms
+9814 [http-nio-8080-exec-1] INFO  c.c.J.service.ItemService Ц get items by order id = 3
+9987 [http-nio-8080-exec-1] INFO  com.company.JavaPractice.Aspect Ц Method: getItemsByOrderId from class com.company.JavaPractice.service.ItemService, Time: 197 ms, Parameters: [3]
+582  [main] INFO  c.c.J.JavaPracticeApplication Ц Starting JavaPracticeApplication using Java 13.0.2 on DESKTOP-B7VVFR0 with PID 9592 (C:\Users\is-in\Desktop\”чеба\ƒжава\20\build\classes\java\main started by is-in in C:\Users\is-in\Desktop\”чеба\ƒжава\20)
+603  [main] INFO  c.c.J.JavaPracticeApplication Ц No active profile set, falling back to default profiles: default
+1149 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1193 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Finished Spring Data repository scanning in 37 ms. Found 2 JPA repository interfaces.
+1822 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat initialized with port(s): 8080 (http)
+1829 [main] INFO  o.a.coyote.http11.Http11NioProtocol Ц Initializing ProtocolHandler ["http-nio-8080"]
+1830 [main] INFO  o.a.catalina.core.StandardService Ц Starting service [Tomcat]
+1830 [main] INFO  o.a.catalina.core.StandardEngine Ц Starting Servlet engine: [Apache Tomcat/9.0.44]
+1920 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring embedded WebApplicationContext
+1920 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Ц Root WebApplicationContext: initialization completed in 1267 ms
+2076 [main] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Starting...
+2159 [main] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Start completed.
+2198 [main] INFO  o.h.jpa.internal.util.LogHelper Ц HHH000204: Processing PersistenceUnitInfo [name: default]
+2245 [main] INFO  org.hibernate.Version Ц HHH000412: Hibernate ORM core version 5.4.29.Final
+2377 [main] INFO  o.h.annotations.common.Version Ц HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2485 [main] INFO  org.hibernate.dialect.Dialect Ц HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+3035 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator Ц HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3044 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Ц Initialized JPA EntityManagerFactory for persistence unit 'default'
+3343 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration Ц spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+3437 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor Ц Initializing ExecutorService 'applicationTaskExecutor'
+3621 [main] INFO  o.a.coyote.http11.Http11NioProtocol Ц Starting ProtocolHandler ["http-nio-8080"]
+3744 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat started on port(s): 8080 (http) with context path ''
+3751 [main] INFO  c.c.J.JavaPracticeApplication Ц Started JavaPracticeApplication in 3.525 seconds (JVM running for 3.957)
+7458 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring DispatcherServlet 'dispatcherServlet'
+7458 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Ц Initializing Servlet 'dispatcherServlet'
+7460 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Ц Completed initialization in 2 ms
+7641 [http-nio-8080-exec-1] INFO  c.company.JavaPractice.util.Aspect Ц Method: getAll from class com.company.JavaPractice.service.OrderService, Time: 154 ms
+566  [main] INFO  c.c.J.JavaPracticeApplication Ц Starting JavaPracticeApplication using Java 13.0.2 on DESKTOP-B7VVFR0 with PID 6760 (C:\Users\is-in\Desktop\”чеба\ƒжава\20\build\classes\java\main started by is-in in C:\Users\is-in\Desktop\”чеба\ƒжава\20)
+571  [main] INFO  c.c.J.JavaPracticeApplication Ц No active profile set, falling back to default profiles: default
+1120 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1167 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Finished Spring Data repository scanning in 40 ms. Found 2 JPA repository interfaces.
+1814 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat initialized with port(s): 8080 (http)
+1822 [main] INFO  o.a.coyote.http11.Http11NioProtocol Ц Initializing ProtocolHandler ["http-nio-8080"]
+1823 [main] INFO  o.a.catalina.core.StandardService Ц Starting service [Tomcat]
+1823 [main] INFO  o.a.catalina.core.StandardEngine Ц Starting Servlet engine: [Apache Tomcat/9.0.44]
+1901 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring embedded WebApplicationContext
+1901 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Ц Root WebApplicationContext: initialization completed in 1282 ms
+2063 [main] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Starting...
+2144 [main] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Start completed.
+2181 [main] INFO  o.h.jpa.internal.util.LogHelper Ц HHH000204: Processing PersistenceUnitInfo [name: default]
+2228 [main] INFO  org.hibernate.Version Ц HHH000412: Hibernate ORM core version 5.4.29.Final
+2355 [main] INFO  o.h.annotations.common.Version Ц HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2458 [main] INFO  org.hibernate.dialect.Dialect Ц HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+3004 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator Ц HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3014 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Ц Initialized JPA EntityManagerFactory for persistence unit 'default'
+3301 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration Ц spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+3399 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor Ц Initializing ExecutorService 'applicationTaskExecutor'
+3585 [main] INFO  o.a.coyote.http11.Http11NioProtocol Ц Starting ProtocolHandler ["http-nio-8080"]
+3711 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat started on port(s): 8080 (http) with context path ''
+3718 [main] INFO  c.c.J.JavaPracticeApplication Ц Started JavaPracticeApplication in 3.498 seconds (JVM running for 3.93)
+9836 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring DispatcherServlet 'dispatcherServlet'
+9836 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Ц Initializing Servlet 'dispatcherServlet'
+9837 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Ц Completed initialization in 1 ms
+9880 [http-nio-8080-exec-1] INFO  c.c.J.service.OrderService Ц get sorted by date
+10018 [http-nio-8080-exec-1] INFO  c.company.JavaPractice.util.Aspect Ц Method: getSortedByDate from com.company.JavaPractice.service.OrderService, Time: 156 ms
+564  [main] INFO  c.c.J.JavaPracticeApplication Ц Starting JavaPracticeApplication using Java 13.0.2 on DESKTOP-B7VVFR0 with PID 4028 (C:\Users\is-in\Desktop\”чеба\ƒжава\20\build\classes\java\main started by is-in in C:\Users\is-in\Desktop\”чеба\ƒжава\20)
+586  [main] INFO  c.c.J.JavaPracticeApplication Ц No active profile set, falling back to default profiles: default
+1119 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1166 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Finished Spring Data repository scanning in 37 ms. Found 2 JPA repository interfaces.
+1795 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat initialized with port(s): 8080 (http)
+1803 [main] INFO  o.a.coyote.http11.Http11NioProtocol Ц Initializing ProtocolHandler ["http-nio-8080"]
+1803 [main] INFO  o.a.catalina.core.StandardService Ц Starting service [Tomcat]
+1804 [main] INFO  o.a.catalina.core.StandardEngine Ц Starting Servlet engine: [Apache Tomcat/9.0.44]
+1891 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring embedded WebApplicationContext
+1891 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Ц Root WebApplicationContext: initialization completed in 1259 ms
+2048 [main] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Starting...
+2128 [main] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Start completed.
+2165 [main] INFO  o.h.jpa.internal.util.LogHelper Ц HHH000204: Processing PersistenceUnitInfo [name: default]
+2226 [main] INFO  org.hibernate.Version Ц HHH000412: Hibernate ORM core version 5.4.29.Final
+2352 [main] INFO  o.h.annotations.common.Version Ц HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2455 [main] INFO  org.hibernate.dialect.Dialect Ц HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+3012 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator Ц HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3024 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Ц Initialized JPA EntityManagerFactory for persistence unit 'default'
+3299 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration Ц spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+3390 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor Ц Initializing ExecutorService 'applicationTaskExecutor'
+3570 [main] INFO  o.a.coyote.http11.Http11NioProtocol Ц Starting ProtocolHandler ["http-nio-8080"]
+3698 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat started on port(s): 8080 (http) with context path ''
+3704 [main] INFO  c.c.J.JavaPracticeApplication Ц Started JavaPracticeApplication in 3.484 seconds (JVM running for 3.908)
+6327 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring DispatcherServlet 'dispatcherServlet'
+6327 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Ц Initializing Servlet 'dispatcherServlet'
+6328 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Ц Completed initialization in 1 ms
+6374 [http-nio-8080-exec-1] INFO  c.c.J.service.OrderService Ц get sorted by date
+6544 [http-nio-8080-exec-1] INFO  c.company.JavaPractice.util.Aspect Ц com.company.JavaPractice.service.OrderService : getSortedByDate, time 190 ms
+560  [main] INFO  c.c.J.JavaPracticeApplication Ц Starting JavaPracticeApplication using Java 13.0.2 on DESKTOP-B7VVFR0 with PID 15244 (C:\Users\is-in\Desktop\”чеба\ƒжава\20\build\classes\java\main started by is-in in C:\Users\is-in\Desktop\”чеба\ƒжава\20)
+567  [main] INFO  c.c.J.JavaPracticeApplication Ц No active profile set, falling back to default profiles: default
+1107 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1155 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Finished Spring Data repository scanning in 40 ms. Found 2 JPA repository interfaces.
+1779 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat initialized with port(s): 8080 (http)
+1787 [main] INFO  o.a.coyote.http11.Http11NioProtocol Ц Initializing ProtocolHandler ["http-nio-8080"]
+1787 [main] INFO  o.a.catalina.core.StandardService Ц Starting service [Tomcat]
+1788 [main] INFO  o.a.catalina.core.StandardEngine Ц Starting Servlet engine: [Apache Tomcat/9.0.44]
+1867 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring embedded WebApplicationContext
+1867 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Ц Root WebApplicationContext: initialization completed in 1255 ms
+2028 [main] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Starting...
+2104 [main] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Start completed.
+2142 [main] INFO  o.h.jpa.internal.util.LogHelper Ц HHH000204: Processing PersistenceUnitInfo [name: default]
+2192 [main] INFO  org.hibernate.Version Ц HHH000412: Hibernate ORM core version 5.4.29.Final
+2313 [main] INFO  o.h.annotations.common.Version Ц HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2417 [main] INFO  org.hibernate.dialect.Dialect Ц HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2960 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator Ц HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2969 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Ц Initialized JPA EntityManagerFactory for persistence unit 'default'
+3258 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration Ц spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+3347 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor Ц Initializing ExecutorService 'applicationTaskExecutor'
+3528 [main] INFO  o.a.coyote.http11.Http11NioProtocol Ц Starting ProtocolHandler ["http-nio-8080"]
+3661 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat started on port(s): 8080 (http) with context path ''
+3667 [main] INFO  c.c.J.JavaPracticeApplication Ц Started JavaPracticeApplication in 3.45 seconds (JVM running for 3.863)
+5506 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring DispatcherServlet 'dispatcherServlet'
+5506 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Ц Initializing Servlet 'dispatcherServlet'
+5507 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Ц Completed initialization in 1 ms
+5556 [http-nio-8080-exec-1] INFO  c.c.J.service.OrderService Ц get sorted by id
+5701 [http-nio-8080-exec-1] INFO  c.company.JavaPractice.util.Aspect Ц class com.company.JavaPractice.service.OrderService : getSortedById, time 165 ms
+578  [main] INFO  c.c.J.JavaPracticeApplication Ц Starting JavaPracticeApplication using Java 13.0.2 on DESKTOP-B7VVFR0 with PID 8240 (C:\Users\is-in\Desktop\”чеба\ƒжава\20\build\classes\java\main started by is-in in C:\Users\is-in\Desktop\”чеба\ƒжава\20)
+596  [main] INFO  c.c.J.JavaPracticeApplication Ц No active profile set, falling back to default profiles: default
+1137 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1182 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Finished Spring Data repository scanning in 38 ms. Found 2 JPA repository interfaces.
+1813 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat initialized with port(s): 8080 (http)
+1821 [main] INFO  o.a.coyote.http11.Http11NioProtocol Ц Initializing ProtocolHandler ["http-nio-8080"]
+1821 [main] INFO  o.a.catalina.core.StandardService Ц Starting service [Tomcat]
+1821 [main] INFO  o.a.catalina.core.StandardEngine Ц Starting Servlet engine: [Apache Tomcat/9.0.44]
+1895 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring embedded WebApplicationContext
+1895 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Ц Root WebApplicationContext: initialization completed in 1251 ms
+2082 [main] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Starting...
+2162 [main] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Start completed.
+2204 [main] INFO  o.h.jpa.internal.util.LogHelper Ц HHH000204: Processing PersistenceUnitInfo [name: default]
+2252 [main] INFO  org.hibernate.Version Ц HHH000412: Hibernate ORM core version 5.4.29.Final
+2391 [main] INFO  o.h.annotations.common.Version Ц HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2494 [main] INFO  org.hibernate.dialect.Dialect Ц HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+3047 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator Ц HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3056 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Ц Initialized JPA EntityManagerFactory for persistence unit 'default'
+3355 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration Ц spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+3461 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor Ц Initializing ExecutorService 'applicationTaskExecutor'
+3650 [main] INFO  o.a.coyote.http11.Http11NioProtocol Ц Starting ProtocolHandler ["http-nio-8080"]
+3778 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat started on port(s): 8080 (http) with context path ''
+3784 [main] INFO  c.c.J.JavaPracticeApplication Ц Started JavaPracticeApplication in 3.56 seconds (JVM running for 3.982)
+6200 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring DispatcherServlet 'dispatcherServlet'
+6200 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Ц Initializing Servlet 'dispatcherServlet'
+6202 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Ц Completed initialization in 2 ms
+6246 [http-nio-8080-exec-1] INFO  c.c.J.service.OrderService Ц get sorted by date
+6382 [http-nio-8080-exec-1] INFO  c.company.JavaPractice.util.Aspect Ц com.company.JavaPractice.service.OrderService : getSortedByDate, time 156 ms
+561  [main] INFO  c.c.J.JavaPracticeApplication Ц Starting JavaPracticeApplication using Java 13.0.2 on DESKTOP-B7VVFR0 with PID 7472 (C:\Users\is-in\Desktop\”чеба\ƒжава\20\build\classes\java\main started by is-in in C:\Users\is-in\Desktop\”чеба\ƒжава\20)
+564  [main] INFO  c.c.J.JavaPracticeApplication Ц No active profile set, falling back to default profiles: default
+1120 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1168 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Finished Spring Data repository scanning in 41 ms. Found 2 JPA repository interfaces.
+1787 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat initialized with port(s): 8080 (http)
+1794 [main] INFO  o.a.coyote.http11.Http11NioProtocol Ц Initializing ProtocolHandler ["http-nio-8080"]
+1795 [main] INFO  o.a.catalina.core.StandardService Ц Starting service [Tomcat]
+1795 [main] INFO  o.a.catalina.core.StandardEngine Ц Starting Servlet engine: [Apache Tomcat/9.0.44]
+1869 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring embedded WebApplicationContext
+1869 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Ц Root WebApplicationContext: initialization completed in 1257 ms
+2046 [main] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Starting...
+2123 [main] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Start completed.
+2161 [main] INFO  o.h.jpa.internal.util.LogHelper Ц HHH000204: Processing PersistenceUnitInfo [name: default]
+2210 [main] INFO  org.hibernate.Version Ц HHH000412: Hibernate ORM core version 5.4.29.Final
+2339 [main] INFO  o.h.annotations.common.Version Ц HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2454 [main] INFO  org.hibernate.dialect.Dialect Ц HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2992 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator Ц HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3001 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Ц Initialized JPA EntityManagerFactory for persistence unit 'default'
+3293 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration Ц spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+3392 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor Ц Initializing ExecutorService 'applicationTaskExecutor'
+3593 [main] INFO  o.a.coyote.http11.Http11NioProtocol Ц Starting ProtocolHandler ["http-nio-8080"]
+3719 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat started on port(s): 8080 (http) with context path ''
+3726 [main] INFO  c.c.J.JavaPracticeApplication Ц Started JavaPracticeApplication in 3.508 seconds (JVM running for 3.925)
+6195 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring DispatcherServlet 'dispatcherServlet'
+6195 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Ц Initializing Servlet 'dispatcherServlet'
+6197 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Ц Completed initialization in 2 ms
+6240 [http-nio-8080-exec-1] INFO  c.c.J.service.OrderService Ц get sorted by date
+6394 [http-nio-8080-exec-1] INFO  c.company.JavaPractice.util.Aspect Ц null : getSortedByDate, time 173 ms
+562  [main] INFO  c.c.J.JavaPracticeApplication Ц Starting JavaPracticeApplication using Java 13.0.2 on DESKTOP-B7VVFR0 with PID 17080 (C:\Users\is-in\Desktop\”чеба\ƒжава\20\build\classes\java\main started by is-in in C:\Users\is-in\Desktop\”чеба\ƒжава\20)
+566  [main] INFO  c.c.J.JavaPracticeApplication Ц No active profile set, falling back to default profiles: default
+1103 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1146 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Finished Spring Data repository scanning in 37 ms. Found 2 JPA repository interfaces.
+1771 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat initialized with port(s): 8080 (http)
+1782 [main] INFO  o.a.coyote.http11.Http11NioProtocol Ц Initializing ProtocolHandler ["http-nio-8080"]
+1783 [main] INFO  o.a.catalina.core.StandardService Ц Starting service [Tomcat]
+1783 [main] INFO  o.a.catalina.core.StandardEngine Ц Starting Servlet engine: [Apache Tomcat/9.0.44]
+1869 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring embedded WebApplicationContext
+1869 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Ц Root WebApplicationContext: initialization completed in 1256 ms
+2016 [main] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Starting...
+2105 [main] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Start completed.
+2143 [main] INFO  o.h.jpa.internal.util.LogHelper Ц HHH000204: Processing PersistenceUnitInfo [name: default]
+2190 [main] INFO  org.hibernate.Version Ц HHH000412: Hibernate ORM core version 5.4.29.Final
+2320 [main] INFO  o.h.annotations.common.Version Ц HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2434 [main] INFO  org.hibernate.dialect.Dialect Ц HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2994 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator Ц HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3003 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Ц Initialized JPA EntityManagerFactory for persistence unit 'default'
+3307 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration Ц spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+3400 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor Ц Initializing ExecutorService 'applicationTaskExecutor'
+3591 [main] INFO  o.a.coyote.http11.Http11NioProtocol Ц Starting ProtocolHandler ["http-nio-8080"]
+3716 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat started on port(s): 8080 (http) with context path ''
+3722 [main] INFO  c.c.J.JavaPracticeApplication Ц Started JavaPracticeApplication in 3.499 seconds (JVM running for 3.927)
+5518 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring DispatcherServlet 'dispatcherServlet'
+5518 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Ц Initializing Servlet 'dispatcherServlet'
+5519 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Ц Completed initialization in 1 ms
+5555 [http-nio-8080-exec-1] INFO  c.c.J.service.OrderService Ц get sorted by date
+5720 [http-nio-8080-exec-1] INFO  c.company.JavaPractice.util.Aspect Ц null : getSortedByDate, time 178 ms
+565  [main] INFO  c.c.J.JavaPracticeApplication Ц Starting JavaPracticeApplication using Java 13.0.2 on DESKTOP-B7VVFR0 with PID 10196 (C:\Users\is-in\Desktop\”чеба\ƒжава\20\build\classes\java\main started by is-in in C:\Users\is-in\Desktop\”чеба\ƒжава\20)
+569  [main] INFO  c.c.J.JavaPracticeApplication Ц No active profile set, falling back to default profiles: default
+1108 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1152 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Finished Spring Data repository scanning in 37 ms. Found 2 JPA repository interfaces.
+1799 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat initialized with port(s): 8080 (http)
+1807 [main] INFO  o.a.coyote.http11.Http11NioProtocol Ц Initializing ProtocolHandler ["http-nio-8080"]
+1807 [main] INFO  o.a.catalina.core.StandardService Ц Starting service [Tomcat]
+1807 [main] INFO  o.a.catalina.core.StandardEngine Ц Starting Servlet engine: [Apache Tomcat/9.0.44]
+1880 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring embedded WebApplicationContext
+1881 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Ц Root WebApplicationContext: initialization completed in 1266 ms
+2032 [main] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Starting...
+2109 [main] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Start completed.
+2148 [main] INFO  o.h.jpa.internal.util.LogHelper Ц HHH000204: Processing PersistenceUnitInfo [name: default]
+2208 [main] INFO  org.hibernate.Version Ц HHH000412: Hibernate ORM core version 5.4.29.Final
+2348 [main] INFO  o.h.annotations.common.Version Ц HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2452 [main] INFO  org.hibernate.dialect.Dialect Ц HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+3000 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator Ц HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3010 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Ц Initialized JPA EntityManagerFactory for persistence unit 'default'
+3307 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration Ц spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+3396 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor Ц Initializing ExecutorService 'applicationTaskExecutor'
+3594 [main] INFO  o.a.coyote.http11.Http11NioProtocol Ц Starting ProtocolHandler ["http-nio-8080"]
+3722 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat started on port(s): 8080 (http) with context path ''
+3729 [main] INFO  c.c.J.JavaPracticeApplication Ц Started JavaPracticeApplication in 3.5 seconds (JVM running for 3.933)
+5669 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring DispatcherServlet 'dispatcherServlet'
+5669 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Ц Initializing Servlet 'dispatcherServlet'
+5670 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Ц Completed initialization in 1 ms
+5715 [http-nio-8080-exec-1] INFO  c.c.J.service.OrderService Ц get sorted by id
+5868 [http-nio-8080-exec-1] INFO  c.company.JavaPractice.util.Aspect Ц OrderService : getSortedById, time 173 ms
+570  [main] INFO  c.c.J.JavaPracticeApplication Ц Starting JavaPracticeApplication using Java 13.0.2 on DESKTOP-B7VVFR0 with PID 3452 (C:\Users\is-in\Desktop\”чеба\ƒжава\20\build\classes\java\main started by is-in in C:\Users\is-in\Desktop\”чеба\ƒжава\20)
+595  [main] INFO  c.c.J.JavaPracticeApplication Ц No active profile set, falling back to default profiles: default
+1116 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1160 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Finished Spring Data repository scanning in 37 ms. Found 2 JPA repository interfaces.
+1785 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat initialized with port(s): 8080 (http)
+1793 [main] INFO  o.a.coyote.http11.Http11NioProtocol Ц Initializing ProtocolHandler ["http-nio-8080"]
+1793 [main] INFO  o.a.catalina.core.StandardService Ц Starting service [Tomcat]
+1793 [main] INFO  o.a.catalina.core.StandardEngine Ц Starting Servlet engine: [Apache Tomcat/9.0.44]
+1880 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring embedded WebApplicationContext
+1880 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Ц Root WebApplicationContext: initialization completed in 1239 ms
+2040 [main] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Starting...
+2115 [main] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Start completed.
+2166 [main] INFO  o.h.jpa.internal.util.LogHelper Ц HHH000204: Processing PersistenceUnitInfo [name: default]
+2213 [main] INFO  org.hibernate.Version Ц HHH000412: Hibernate ORM core version 5.4.29.Final
+2348 [main] INFO  o.h.annotations.common.Version Ц HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2448 [main] INFO  org.hibernate.dialect.Dialect Ц HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2999 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator Ц HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3008 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Ц Initialized JPA EntityManagerFactory for persistence unit 'default'
+3294 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration Ц spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+3386 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor Ц Initializing ExecutorService 'applicationTaskExecutor'
+3587 [main] INFO  o.a.coyote.http11.Http11NioProtocol Ц Starting ProtocolHandler ["http-nio-8080"]
+3716 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat started on port(s): 8080 (http) with context path ''
+3722 [main] INFO  c.c.J.JavaPracticeApplication Ц Started JavaPracticeApplication in 3.503 seconds (JVM running for 3.927)
+6586 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring DispatcherServlet 'dispatcherServlet'
+6587 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Ц Initializing Servlet 'dispatcherServlet'
+6589 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Ц Completed initialization in 2 ms
+6619 [http-nio-8080-exec-1] INFO  c.company.JavaPractice.util.Aspect Ц OrderService : getSortedById, time 0 ms
+10358 [http-nio-8080-exec-2] INFO  c.company.JavaPractice.util.Aspect Ц OrderService : getSortedByDate, time 0 ms
+559  [main] INFO  c.c.J.JavaPracticeApplication Ц Starting JavaPracticeApplication using Java 13.0.2 on DESKTOP-B7VVFR0 with PID 6572 (C:\Users\is-in\Desktop\”чеба\ƒжава\20\build\classes\java\main started by is-in in C:\Users\is-in\Desktop\”чеба\ƒжава\20)
+566  [main] INFO  c.c.J.JavaPracticeApplication Ц No active profile set, falling back to default profiles: default
+1110 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1158 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Finished Spring Data repository scanning in 41 ms. Found 2 JPA repository interfaces.
+1790 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat initialized with port(s): 8080 (http)
+1798 [main] INFO  o.a.coyote.http11.Http11NioProtocol Ц Initializing ProtocolHandler ["http-nio-8080"]
+1798 [main] INFO  o.a.catalina.core.StandardService Ц Starting service [Tomcat]
+1799 [main] INFO  o.a.catalina.core.StandardEngine Ц Starting Servlet engine: [Apache Tomcat/9.0.44]
+1873 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring embedded WebApplicationContext
+1873 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Ц Root WebApplicationContext: initialization completed in 1264 ms
+2049 [main] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Starting...
+2125 [main] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Start completed.
+2167 [main] INFO  o.h.jpa.internal.util.LogHelper Ц HHH000204: Processing PersistenceUnitInfo [name: default]
+2215 [main] INFO  org.hibernate.Version Ц HHH000412: Hibernate ORM core version 5.4.29.Final
+2350 [main] INFO  o.h.annotations.common.Version Ц HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2454 [main] INFO  org.hibernate.dialect.Dialect Ц HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+3008 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator Ц HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3017 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Ц Initialized JPA EntityManagerFactory for persistence unit 'default'
+3296 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration Ц spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+3405 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor Ц Initializing ExecutorService 'applicationTaskExecutor'
+3588 [main] INFO  o.a.coyote.http11.Http11NioProtocol Ц Starting ProtocolHandler ["http-nio-8080"]
+3717 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat started on port(s): 8080 (http) with context path ''
+3723 [main] INFO  c.c.J.JavaPracticeApplication Ц Started JavaPracticeApplication in 3.503 seconds (JVM running for 3.924)
+7381 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring DispatcherServlet 'dispatcherServlet'
+7381 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Ц Initializing Servlet 'dispatcherServlet'
+7383 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Ц Completed initialization in 2 ms
+7429 [http-nio-8080-exec-1] INFO  c.c.J.service.OrderService Ц get sorted by date
+7582 [http-nio-8080-exec-1] INFO  c.company.JavaPractice.util.Aspect Ц OrderService : getSortedByDate, time 174 ms
+563  [main] INFO  c.c.J.JavaPracticeApplication Ц Starting JavaPracticeApplication using Java 13.0.2 on DESKTOP-B7VVFR0 with PID 15196 (C:\Users\is-in\Desktop\”чеба\ƒжава\20\build\classes\java\main started by is-in in C:\Users\is-in\Desktop\”чеба\ƒжава\20)
+569  [main] INFO  c.c.J.JavaPracticeApplication Ц No active profile set, falling back to default profiles: default
+1109 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1152 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Finished Spring Data repository scanning in 37 ms. Found 2 JPA repository interfaces.
+1778 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat initialized with port(s): 8080 (http)
+1786 [main] INFO  o.a.coyote.http11.Http11NioProtocol Ц Initializing ProtocolHandler ["http-nio-8080"]
+1786 [main] INFO  o.a.catalina.core.StandardService Ц Starting service [Tomcat]
+1786 [main] INFO  o.a.catalina.core.StandardEngine Ц Starting Servlet engine: [Apache Tomcat/9.0.44]
+1875 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring embedded WebApplicationContext
+1875 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Ц Root WebApplicationContext: initialization completed in 1261 ms
+2030 [main] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Starting...
+2117 [main] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Start completed.
+2168 [main] INFO  o.h.jpa.internal.util.LogHelper Ц HHH000204: Processing PersistenceUnitInfo [name: default]
+2216 [main] INFO  org.hibernate.Version Ц HHH000412: Hibernate ORM core version 5.4.29.Final
+2348 [main] INFO  o.h.annotations.common.Version Ц HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2452 [main] INFO  org.hibernate.dialect.Dialect Ц HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+3022 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator Ц HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3031 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Ц Initialized JPA EntityManagerFactory for persistence unit 'default'
+3328 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration Ц spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+3420 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor Ц Initializing ExecutorService 'applicationTaskExecutor'
+3605 [main] INFO  o.a.coyote.http11.Http11NioProtocol Ц Starting ProtocolHandler ["http-nio-8080"]
+3731 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat started on port(s): 8080 (http) with context path ''
+3738 [main] INFO  c.c.J.JavaPracticeApplication Ц Started JavaPracticeApplication in 3.517 seconds (JVM running for 3.939)
+6945 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring DispatcherServlet 'dispatcherServlet'
+6945 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Ц Initializing Servlet 'dispatcherServlet'
+6948 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Ц Completed initialization in 2 ms
+6996 [http-nio-8080-exec-1] INFO  c.c.J.service.OrderService Ц get sorted by date
+7126 [http-nio-8080-exec-1] INFO  c.company.JavaPractice.util.Aspect Ц OrderService : getSortedByDate, time 150 ms
+8149 [http-nio-8080-exec-2] INFO  c.c.J.service.OrderService Ц get sorted by date
+8155 [http-nio-8080-exec-2] INFO  c.company.JavaPractice.util.Aspect Ц OrderService : getSortedByDate, time 6 ms
+8758 [http-nio-8080-exec-3] INFO  c.c.J.service.OrderService Ц get sorted by id
+8768 [http-nio-8080-exec-3] INFO  c.company.JavaPractice.util.Aspect Ц OrderService : getSortedById, time 9 ms
+9365 [http-nio-8080-exec-4] INFO  c.c.J.service.OrderService Ц get sorted by date
+9371 [http-nio-8080-exec-4] INFO  c.company.JavaPractice.util.Aspect Ц OrderService : getSortedByDate, time 6 ms
+9789 [http-nio-8080-exec-5] INFO  c.c.J.service.OrderService Ц get sorted by id
+9794 [http-nio-8080-exec-5] INFO  c.company.JavaPractice.util.Aspect Ц OrderService : getSortedById, time 4 ms
+13328 [http-nio-8080-exec-6] INFO  c.c.J.service.ItemService Ц get items by order id = 3
+13358 [http-nio-8080-exec-6] INFO  c.company.JavaPractice.util.Aspect Ц ItemService : getItemsByOrderId, time 50 ms
+14813 [http-nio-8080-exec-7] INFO  c.c.J.service.OrderService Ц get all orders
+14821 [http-nio-8080-exec-7] INFO  c.company.JavaPractice.util.Aspect Ц OrderService : getAll, time 8 ms

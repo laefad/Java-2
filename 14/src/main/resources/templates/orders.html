@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+    <form method="post" action="/orders/addOrder">
+        <label>
+            <input type="text" name="orderDate"
+                   placeholder="dd-MM-yyyy"/>
+        </label>
+        <br>
+        <button type="submit">Add order</button>
+    </form>
+
+    <div th:each="order, state : ${orders}">
+        <h2>Order</h2>
+        <p>Date: <span th:text="${order.key.getOrderDate()}"></span></p>
+
+        <ul th:each="item : ${order.value}">
+            <li>
+                <span th:text="${item.getName()}"></span>
+                <span th:text="${item.getCreationDate()}"></span>
+                <span th:text="${item.getPrice()}"></span>
+                <form method="post" action="/orders/removeItem">
+                    <input type="hidden" name="orderId" readonly th:value="${order.key.getId()}">
+                    <input type="hidden" name="itemId" readonly th:value="${item.getId()}">
+                    <button type="submit">Remove item</button>
+                </form>
+            </li>
+        </ul>
+
+        <form method="post" action="/orders/addItem">
+            <label>
+                <input type="text" name="creationDate"
+                       placeholder="dd-MM-yyyy"/>
+            </label>
+            <br>
+            <label>
+                <input type="text" name="name"
+                       placeholder="Vasiliy Pupkin"/>
+            </label>
+            <br>
+            <label>
+                <input type="number" name="price" step="any"
+                       placeholder="10.11"/>
+            </label>
+            <br>
+            <input type="hidden" name="orderId" readonly th:value="${order.key.getId()}">
+            <button type="submit">Add item</button>
+        </form>
+
+        <form method="post" action="/orders/removeOrder">
+            <input type="hidden" name="orderId" readonly th:value="${order.key.getId()}">
+            <button type="submit">Remove order</button>
+        </form>
+
+    </div>
+</body>
+</html>

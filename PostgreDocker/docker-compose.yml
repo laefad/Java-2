@@ -1,0 +1,21 @@
+version: "3.9"
+
+services:
+  postgres:
+    container_name: postgres
+    image: postgres:my
+    build:
+      context: .
+      dockerfile: Dockerfile.postgres
+    ports:
+      - "7000:5432"
+    volumes:
+      - type: volume
+        source: db-source
+        target: /var/lib/postgresql/data
+    environment:
+      PGPASSWORD: 1561
+
+volumes:
+  db-source: 
+    external: true
